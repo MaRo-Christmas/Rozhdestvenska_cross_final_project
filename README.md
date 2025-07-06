@@ -99,3 +99,25 @@
 ```bash
 npx expo start
 ```
+
+---
+
+## Необхідні залежності
+
+Перед запуском проєкту переконайтесь, що встановлені наступні пакети:
+
+```bash
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npm install @react-navigation/drawer
+npm install @react-navigation/bottom-tabs
+npm install react-native-screens react-native-safe-area-context
+npm install react-native-gesture-handler
+npm install react-native-reanimated
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install babel-plugin-module-resolver
+npm install expo
+npm install expo-status-bar
+
+```
