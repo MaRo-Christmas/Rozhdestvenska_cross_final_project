@@ -1,40 +1,51 @@
 import React from "react";
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import { PrimaryButton } from "@/components/PrimaryButton/PrimaryButton";
 
 export default function WelcomeScreen({ navigation }) {
   return (
-    <View style={styles.container}>
-      <Image
-        source={{ uri: "https://placehold.co/600x400" }}
-        style={styles.image}
-      />
-      <View style={styles.textContainer}>
-        <Text style={styles.title}>Find your moment in our space</Text>
-        <Text style={styles.subtitle}>
-          An app that opens the door to events in our cultural space. Discover,
-          register, and stay connected.
-        </Text>
+    <ImageBackground
+      source={require("../images/welcome.png")}
+      style={styles.background}
+      resizeMode="cover"
+    >
+      <View style={styles.contentContainer}>
+        <View style={styles.bottomBlock}>
+          <View style={styles.textContainer}>
+            <Text style={styles.title}>Find your moment in our space</Text>
+            <Text style={styles.subtitle}>
+              An app that opens the door to events in our cultural space.
+              Discover, register, and stay connected.
+            </Text>
+          </View>
+          <PrimaryButton
+            title="GO"
+            onPress={() => navigation.navigate("Drawer")}
+          />
+        </View>
       </View>
-      <PrimaryButton title="GO" onPress={() => navigation.navigate("Drawer")} />
-    </View>
+    </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  background: {
     flex: 1,
-    justifyContent: "space-between",
-    padding: 24,
-    paddingTop: 60,
   },
-  image: {
-    width: "100%",
-    height: 300,
-    borderRadius: 16,
+  contentContainer: {
+    flex: 1,
+    justifyContent: "flex-end",
+  },
+  bottomBlock: {
+    backgroundColor: "white",
+    padding: 24,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    minHeight: "33%",
+    justifyContent: "space-between",
   },
   textContainer: {
-    marginVertical: 24,
+    marginBottom: 24,
   },
   title: {
     fontSize: 28,
