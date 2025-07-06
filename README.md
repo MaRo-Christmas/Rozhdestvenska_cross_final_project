@@ -25,6 +25,28 @@
 
 ## Внесені покращення
 
+## Скріншоти
+
+- Головний екран
+
+  ![Головний екран](./presentation/presentation-1.png)
+
+- Сторінка Explore з фільтрацією
+
+![Сторінка Explore з фільтрацією](./presentation/presentation-2.png)
+
+- Сторінка Past Events
+
+![Сторінка Past Events](./presentation/presentation-5.png)
+
+- Сторінка Contacts
+
+![Сторінка Contacts](./presentation/presentation-4.png)
+
+- Сторінка реєстрації
+
+![Сторінка реєстрації](./presentation/presentation-3.png)
+
 ### 📌 Нові функції:
 
 - Додано **фільтрацію подій за категоріями**.
@@ -59,17 +81,6 @@
 - Favorites
 - Registration
 - Profile
-
----
-
-## Скріншоти
-
-- Головний екран
-  ![Головний екран](./presentation/presentation-1.png)
-- ![Сторінка Explore з фільтрацією](./presentation/presentation-2.png)
-- ![Сторінка Past Events](./presentation/presentation-5.png)
-- ![Сторінка Contacts](./presentation/presentation-4.png)
-- ![Сторінка реєстрації](./presentation/presentation-3.png)
 
 ---
 
