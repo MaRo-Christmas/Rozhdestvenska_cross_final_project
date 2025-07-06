@@ -64,12 +64,11 @@
 
 ## Скріншоти
 
-- ![Головний екран](./screen_recording/Simulator_Screenshot_iPhone15Pro_1.png)
-- Сторінка Explore з фільтрацією
-- Сторінка Past Events
-- Сторінка Contacts
-- Сторінка реєстрації
-- Сторінка профілю
+- ![Головний екран](./presentation/presentation-1.png)
+- ![Сторінка Explore з фільтрацією](./presentation/presentation-2.png)
+- ![Сторінка Past Events](./presentation/presentation-5.png)
+- ![Сторінка Contacts](./presentation/presentation-4.png)
+- ![Сторінка реєстрації](./presentation/presentation-3.png)
 
 ---
 
